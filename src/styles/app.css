@@ -1,0 +1,21 @@
+.buttons {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid-item {
+  color: #e2b514;
+}
+
+.app {
+  min-height: 100vh;
+  max-width: 100vw;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 66vh 34vh;
+}
+
+.small {
+  font-size:large;
+  margin: -10px;
+}

@@ -1,0 +1,28 @@
+button {
+  position: relative;
+  background-color: #e2b514;
+  border: none;
+  font-size: 70px !important;
+  color: #444 !important;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: 0 0 9e9q inset #e2b51484; 
+}
+
+button:hover {
+  background-color:#e2b514c8;
+}
+
+button:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+button:focus-visible {
+  box-shadow: none;
+}
